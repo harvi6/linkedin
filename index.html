@@ -1,0 +1,308 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static linkedin page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--navbaar starts-->>
+    <nav class="navbaar">
+        <!--navbaar dividev into 3 sections-->
+        <div class="navbaar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png"></a>
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+
+        <div class="navbaar-centre">
+            <ul>
+                <li><a href="#" class="active-link"><img src="images/home.png"><span>Home</span></a></li>
+                <li><a href="#"><img src="images/network.png"><span>My Network</span></a></li>
+                <li><a href="#"><img src="images/jobs.png"><span>Jobs</span></a></li>
+                <li><a href="#"><img src="images/message.png"><span>Messaging</span></a></li>
+                <li><a href="#"><img src="images/notification.png"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbaar-right">
+            <div class="online">
+                <img src="images/user-1.png" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+           
+        </div>
+
+        <!----------profile dropdown menu-------------->
+<div class="profile-menu-wrap" id="profileMenu">
+    <div class="profile-menu">
+        <div class="user-info">
+            <img src="images/user-1.png" >
+            <div>
+                <h3>Abhay</h3>
+                <a href="#">See your profile</a>
+            </div>
+        </div>
+        <hr>
+        <a href="#" class="profile-menu-link">
+            <img src="images/feedback.png">
+            <p>Give Feedback</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="images/setting.png">
+            <p>Settings and Privacy</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="images/help.png">
+            <p>Help & Support</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="images/display.png">
+            <p>Display and Accessibility</p>
+            <span>></span>
+        </a>
+        <a href="#" class="profile-menu-link">
+            <img src="images/logout.png">
+            <p>Logout</p>
+            <span>></span>
+        </a>
+    </div>
+
+</div>
+
+    </nav>
+
+    <!--navbaar completed-->
+
+    <div class="container">
+
+
+        <!--left-sidebaar-->
+        <div class="left-sidebaar">
+            <div class="sidebaar-profile-box">
+                <img src="images/cover-pic.png" width="100%">
+                <div class="sidebaar-profile-info">
+                    <img src="images/user-1.png" alt="">
+                    <h1>Abhay</h1>
+                    <h3>Full stack developer @google</h3>
+                    <ul>
+                        <li>Your profile views<span>58</span></li>
+                        <li>Your post views<span>968</span></li>
+                        <li>Your connections<span>230</span></li>
+                    </ul>
+                </div>
+                 <div class="sidebaar-profile-link">
+                    <a href="#"><img src="images/items.png">My items</a>
+                    <a href="#"><img src="images/premium.png">Try premium</a>
+                 </div>
+            </div>
+
+            <div class="sidebaar-activity">
+                <h3>RECENT</h3>
+                <a href="#"><img src="images/recent.png">Web Development</a>
+                <a href="#"><img src="images/recent.png">User Interface</a>
+                <a href="#"><img src="images/recent.png">Online Learning</a>
+                <a href="#"><img src="images/recent.png">Learn Online</a>
+                <a href="#"><img src="images/recent.png">Code Better</a>
+                <a href="#"><img src="images/recent.png">Group Learning</a>
+                <h3>GROUPS</h3>
+                <a href="#"><img src="images/group.png">HTML|CSS</a>
+                <a href="#"><img src="images/group.png">JAVASCRIPT</a>
+                <a href="#"><img src="images/group.png">BACKEND</a>
+                <a href="#"><img src="images/group.png">Code Learning</a>
+                <h3>HASHTAG</h3>
+                <a href="#"><img src="images/hashtag.png">webdevelopment</a>
+                <a href="#"><img src="images/hashtag.png">userinterface</a>
+                <a href="#"><img src="images/hashtag.png">onlinelearning</a>
+                <div class="discover-more-link">
+                    <a href="#">Discover more</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!--main-content-->
+        <div class="main-content">
+            <div class="create-post">
+                <div class="create-post-input">
+                    <img src="images/user-1.png">
+                    <textarea rows="2" placeholder="Write a post"></textarea>
+                </div>
+                <div class="create-post-link">
+                    <li><img src="images/photo.png">Photo</li>
+                    <li><img src="images/video.png">Video</Video></li>
+                    <li><img src="images/event.png">Event</li>
+                    <li>Post</li>
+                </div>
+            </div>
+            <div class="sort-by">
+                <hr>
+                <p>Sort by: <span>top <img src="images/down-arrow.png"></span></p>
+            </div>
+            <div class="post">
+                <div class="post-author">
+                    <img src="images/user-3.png">
+                    <div>
+                        <h1>Benjamin Leo</h1>
+                        <small>Founder and CEO at Gallelio Group</small>
+                        <small>2 hours agos</small>
+                    </div>
+                </div>
+                <p>Incorporating these SEO strategies into your digital marketing arsenal can significantly enhance your website's visibility, drive targeted traffic, and ultimately, boost your business's bottom line. Remember, SEO is an ongoing process that requires patience, persistence, and adaptation to ever-evolving search engine algorithms. By staying informed and proactive, you can stay ahead of the competition and reap the rewards of effective SEO.</p>
+                <img src="images/post-image-1.png" width="100%">
+                <div class="post-stats">
+                    <div>
+                        <img src="images/thumbsup.png">
+                        <img src="images/love.png">
+                        <img src="images/clap.png">
+                        <span class="liked-user">Rajat and 56 others</span>
+                    </div>
+                    <div>
+                        <span>26 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <img src="images/user-1.png" class="post-activity-user-icon">
+                    <img src="images/down-arrow.png" class="post-activity-arrow-icon">
+                    
+                    <div class="post-activity-link">
+                        <img src="images/like.png">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/comment.png">
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/share.png">
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/send.png">
+                        <span>Send</span>
+                    </div>
+                
+                
+                </div>
+
+            <div class="post">
+                <div class="post-author">
+                    <img src="images/user-4.png">
+                    <div>
+                        <h1>Andrew</h1>
+                        <small>Full stack developer</small>
+                        <small>2 hours agos</small>
+                    </div>
+                </div>
+                <p>Incorporating these SEO strategies into your digital marketing arsenal can significantly enhance your website's visibility, drive targeted traffic, and ultimately, boost your business's bottom line. Remember, SEO is an ongoing process that requires patience, persistence, and adaptation to ever-evolving search engine algorithms. By staying informed and proactive, you can stay ahead of the competition and reap the rewards of effective SEO.</p>
+                <img src="images/post-image-2.png" width="100%">
+                <div class="post-stats">
+                    <div>
+                        <img src="images/thumbsup.png">
+                        <img src="images/love.png">
+                        <img src="images/clap.png">
+                        <span class="liked-user">Rajat and 56 others</span>
+                    </div>
+                    <div>
+                        <span>26 comments &middot; 40 shares</span>
+                    </div>
+                </div>
+                <div class="post-activity">
+                    <img src="images/user-1.png" class="post-activity-user-icon">
+                    <img src="images/down-arrow.png" class="post-activity-arrow-icon">
+                    
+                    <div class="post-activity-link">
+                        <img src="images/like.png">
+                        <span>Like</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/comment.png">
+                        <span>Comment</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/share.png">
+                        <span>Share</span>
+                    </div>
+                    <div class="post-activity-link">
+                        <img src="images/send.png">
+                        <span>Send</span>
+                    </div>
+                
+                
+                </div>
+            </div>
+            </div>
+
+
+        </div>
+
+
+
+
+        <!--right-sidebaar-->
+        <div class="right-sidebaar">
+            <div class="sidebaar-news">
+                <img src="images/more.png" class="info-icon" >
+                <h3>Trending News</h3>
+                <a href="#">High demand for skilled manpower</a>
+                <span>1d ago &middot; 10,869 readers </span>
+
+                <a href="#">Career growing horizontally too</a>
+                <span>1d ago &middot; 5,568 readers </span>
+
+                <a href="#">More hiring=more confidence?</a>
+                <span>1d ago &middot; 56,869 readers </span>
+
+                <a href="#">Less work visa for US</a>
+                <span>1d ago &middot; 4,896 readers </span>
+
+                <a href="#">AI vs HR</a>
+                <span>1d ago &middot; 18,856 readers </span>
+
+                <a href="#" class="read-more-link">Read More</a>
+            </div>
+
+
+<div class="sidebaar-ad">
+    <small>Ad &middot; &middot; &middot;</small>
+    <p> Master the 5 principles of web designing</p>
+    <div>
+        <img src="images/user-1.png" >
+        <img src="images/mi-logo.png" >
+    </div>
+    <b>Brand and Demand in Xiaomi</b>
+    <a href="#" class="ad-link">Learn More</a>
+</div>
+<div class="sidebaar-useful-links">
+    <a href="#">About</a>
+    <a href="#">Accessibility</a>
+    <a href="#">Help Center</a>
+    <a href="#">Privacy Ploicy</a>
+    <a href="#">Advertising</a>
+    <a href="#">Get the App</a>
+    <a href="#">More</a>
+
+    <div class="copyright-msg">
+        <img src="images/logo.png">
+        <p>Linkedin &#169; 2024. All right reserved</p>
+    </div>
+</div>
+
+        </div>
+
+    </div>
+
+    <!-------------------js for profile drop down----------------->
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+
+        function toggleMenu(){
+            profileMenu.classList.toggle("open-menu");
+        }
+    </script>
+</body>
+</html>
